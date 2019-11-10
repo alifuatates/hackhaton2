@@ -1,0 +1,4 @@
+10:27:08.930 found scenario at line: 8 - ^create and retrieve a cat$
+10:27:09.136 karate.env system property was: null 
+10:27:09.214 url not set, please refer to the keyword documentation for 'url'
+10:27:09.215 http request failed: url not set, please refer to the keyword documentation for 'url'

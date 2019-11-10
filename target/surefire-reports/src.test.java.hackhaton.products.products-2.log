@@ -1,0 +1,42 @@
+11:36:09.731 found scenario at line: 17 - ^create a user and then get it by id$
+11:36:09.948 karate.env system property was: null 
+11:36:10.381 request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 223
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+{"userId":"1","id":"1","title":"qui est esse","body":"et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"}
+
+11:36:11.447 response time in milliseconds: 1063.94
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5336b28daf8f7317-AMS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 240
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 10 Nov 2019 08:36:13 GMT
+1 < Etag: W/"f0-8PQSDBEpPiBGFDAyovNJU0TkVoU"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=def387575f29aa235af0f31139b563cab1573374973; expires=Mon, 09-Nov-20 08:36:13 GMT; path=/; domain=.typicode.com; HttpOnly
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+{
+  "userId": "1",
+  "id": 101,
+  "title": "qui est esse",
+  "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+}
+
+11:36:11.461 [print] created id is:  101
